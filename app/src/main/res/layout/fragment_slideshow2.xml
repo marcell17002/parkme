@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You"
+        android:textSize="50dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your one of the million people who help Indonesia for a better future "
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:src="@drawable/illustration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="280dp"/>
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check This Out"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="590dp"/>
+
+</RelativeLayout>

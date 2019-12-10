@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="90dp"
+        android:text="Here is your first step with us !"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="274dp"
+        android:layout_height="208dp"
+        android:maxWidth="500dp"
+        android:maxHeight="500dp"
+        android:layout_marginBottom="530dp"
+        android:src="@drawable/signup1" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/signup_id_card"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="100dp"-->
+<!--        android:layout_marginTop="345dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Id Card" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/signup_name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="100dp"-->
+<!--        android:layout_marginTop="380dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Your Name" />-->
+<!--    <EditText-->
+<!--        android:id="@+id/signup_telp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="100dp"-->
+<!--        android:layout_marginTop="415dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Phone" />-->
+
+    <EditText
+        android:id="@+id/signup_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email" />
+
+
+    <EditText
+        android:id="@+id/signup_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="470dp"
+        android:text="Register" />
+
+    <ImageView
+        android:layout_width="351dp"
+        android:layout_height="113dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="620dp"
+        android:maxWidth="500dp"
+        android:maxHeight="500dp"
+        android:src="@drawable/signin_bottom" />
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help Us !"
+        android:textSize="40dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beri tahu kami supaya\nkamu bisa menjadi bagian \ndari salah satu pahlawan\n bagi Bangsa ini"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/reg_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="320dp"
+        android:text="Person_avaible"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/reg_id"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="360dp"
+        android:text="Identity Card"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/reg_hours"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:text="Jam"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/reg_location"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="440dp"
+        android:text="location"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/reg_slot"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="480dp"
+        android:text="Slot Area"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="560dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/human1"/>
+
+
+</RelativeLayout>

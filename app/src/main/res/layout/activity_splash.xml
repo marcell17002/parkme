@@ -7,21 +7,20 @@
     android:background="@android:color/holo_blue_light"
     tools:context=".splashActivity">
 
-    <TextView
-        android:id="@+id/splashscreen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Park Me"
-        android:textColor="@android:color/white"
-        android:layout_marginTop="340dp"
-        android:layout_marginLeft="125dp"
-        android:fontFamily="sans-serif-black"
-        android:textSize="40dp"/>
+<!--    <TextView-->
+<!--        android:id="@+id/splashscreen"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Park Me"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:layout_marginTop="340dp"-->
+<!--        android:layout_marginLeft="125dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:textSize="40dp"/>-->
 
-<!--    <ImageView-->
-<!--        android:layout_width="341dp"-->
-<!--        android:layout_height="416dp"-->
-<!--        android:layout_marginTop="220dp"-->
-<!--        android:layout_marginLeft="35dp"-->
-<!--        android:src="@drawable/db" />-->
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/parkme" />
 </RelativeLayout>
